@@ -1,18 +1,18 @@
-POST http://localhost:3333/videos
+POST https://node-postgres-fastify.onrender.com/videos
 Content-Type: application/json
 
 {
-  "title":"Video node Exemplo 3",
+  "title":"Video node Exemplo 4",
   "description": "Esse é o primeiro video",
   "duration": "180"
 }
 
 ###
-Get http://localhost:3333/videos
+Get https://node-postgres-fastify.onrender.com/videos
 
 
 ###
-PUT http://localhost:3333/videos/f982461a-3fb2-498f-85ec-66b22e092f86
+PUT https://node-postgres-fastify.onrender.com/videos/
 Content-Type: application/json
 
 {
@@ -22,4 +22,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE   http://localhost:3333/videos/70f978c0-1b06-4966-8bc0-097745808dbf
+DELETE   https://node-postgres-fastify.onrender.com/videos/70f978c0-1b06-4966-8bc0-097745808dbf
